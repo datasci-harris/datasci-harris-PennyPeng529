@@ -60,8 +60,8 @@ print(new_list)
 # turns them into the following dictionary: {'IL':'Illinois', 'IN':'Indiana', 'MI':'Michigan', 'WI':'Wisconsin'}
 short_names = ['IL', 'IN', 'MI', 'WI']
 long_names  = ['Illinois', 'Indiana', 'Michigan', 'Wisconsin']
-dict= {short_names[i]:long_names[i] for i in range(len(short_names))}
-print(dict)
+state_dictionary= {short_names[i]:long_names[i] for i in range(len(short_names))}
+print(state_dictionary)
 
 #############
 # Part 2: Functions and classes (must be answered using functions\classes)
